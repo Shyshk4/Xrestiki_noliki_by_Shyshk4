@@ -89,7 +89,7 @@ void analysis(char arr[n][n], bool& end)
 	for (int i = 0; i < n; i++)
 	{
 		xcount1 = xcount2 = ocount1 = ocount2 = xcount3 = ocount3 = xcount4 = ocount4 = 0;
-		for (int k = 0; k < n-1; k++)
+		for (int k = 0; k < n - 1; k++)
 		{
 			if (arr[k][k] == arr[k + 1][k + 1])
 			{
